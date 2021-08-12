@@ -5,14 +5,15 @@
                 <img src="../assets/logo.png" alt="logo" />
             </router-link>
         </div>
-        <div class="header-right">            
+        <div class="header-right">
             <router-link to="/AboutChurchView">교회 소개</router-link> |
-            <router-link to="/NewLightNewsView">교회 소식</router-link> |                        
-            <router-link to="/PictureView">새빛 사진</router-link> |
-            <router-link to="/FreeBoardView">은혜 나눔</router-link> |
-            <a href="https://www.youtube.com/channel/UC_8Ly-tOUYDeuL85hB6TpEQ" target="_blank">온라인 예배</a>
+            <router-link to="/IframeCompView/news">교회 소식</router-link> |                        
+            <router-link to="/IframeCompView/picAll">새빛 사진</router-link> |
+            <router-link to="/IframeCompView/freeBoard">은혜 나눔</router-link> |
+            <a href="https://www.youtube.com/channel/UC_8Ly-tOUYDeuL85hB6TpEQ" target="_blank">온라인 예배</a>            
         </div>
         <div class="header-right-menu">
+          <a href="https://www.youtube.com/channel/UC_8Ly-tOUYDeuL85hB6TpEQ" target="_blank"><img src="../assets/youtube.png" alt="online-worship" /></a>
           <router-link to="/MenuBar"><img src="../assets/menu_lines.png" alt="menu" /></router-link>            
         </div>
   </div>
@@ -23,7 +24,13 @@
 export default {
     mounted() {
 
+    }, 
+    data() {
+        return {
+            propsString: '123',
+        }        
     }
+
 }
 </script>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="footer-bar">
       <div class="footer-bar-body">
-          <div class="footer-bar-item">Copyright (c) 대한 예수교 장로회 새빛교회. All rights reserved.</div>
+          <div class="footer-bar-item">Copyright (c) 새빛교회 All rights reserved.</div>          
           <div class="footer-bar-item">경기 광명시 하안로 258</div>
       </div>
   </div>
@@ -17,11 +17,13 @@ export default {
 .footer-bar {
     display: block;
     margin: 0;
-    padding: 0.3rem 0 0.3rem 0;
+    padding: 0.5rem 0 1.5rem 0;
     position: fixed;
     bottom: 0;
     width: 100%;
-    background: #355c7d;
+    background: #1D6A96;
+    border-top-left-radius: 10px 10px;
+    border-top-right-radius: 10px 10px;
     color: white;    
     font-weight: bold;
 }
@@ -31,22 +33,22 @@ export default {
     font-size: 1rem;
 }
 
-@media screen and (max-height: 700px) {
+@media screen and (max-height: 600px) {
     .footer-bar {
         display: block;
         margin: 0;
-        padding: 1rem 0 2rem 0;
+        padding: 2rem 0 2rem 0;
         position: fixed;
         bottom: 0;
         width: 100%;
-        background: #355c7d;
+        background: #1D6A96;
         color: white;    
         font-weight: bold;
     }
 
     .footer-bar-item {        
-        padding: 0.1rem;
-        font-size: 0.9rem;
+        padding: 0.5rem;    
+        font-size: 0.7rem;
     }
 }
 

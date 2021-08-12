@@ -23,7 +23,7 @@ export default {
 
 <style scoped>
 .way-to-come-view {
-  margin: 12vh 0;
+  margin: 8vh 0;
 }
 .way-to-come-view-ul {
   padding: 1rem;
@@ -37,7 +37,11 @@ export default {
   list-style-type: none;
 }
 
-@media (max-width: 500px) {
+@media (max-height: 800px) {
+.way-to-come-view {
+  margin: 11vh 0;
+}
+
 .way-to-come-view-body-item {
   font-size: 0.8rem;
   padding-bottom: 0.3rem;

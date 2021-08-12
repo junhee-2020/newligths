@@ -8,10 +8,12 @@ import WayToComeView from '../views/WayToComeView.vue';
 import WorshipGuideView from '../views/WorshipGuideView.vue';
 import MenuBar from '../components/MenuBar.vue';
 import AboutChurchView from '../views/AboutChurchView.vue';
+import IframeCompView from '../components/IframeComp.vue';
 
 Vue.use(VueRouter);
 
 export const router = new VueRouter({    
+    mode: 'history',
     routes: [
         {
             path: '/',
@@ -48,6 +50,10 @@ export const router = new VueRouter({
         {
             path: '/AboutChurchView',
             component: AboutChurchView,
+        },
+        {
+            path: '/IframeCompView/:src',
+            component: IframeCompView,
         }
     ]
 })

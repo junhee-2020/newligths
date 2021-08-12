@@ -28,7 +28,7 @@ export default {
 
 <style scoped>
 .about-church-view {
-  margin: 10vh 0;
+  margin: 6vh 0;
 }
 .about-church-ol {
   padding: 1rem;
@@ -38,22 +38,26 @@ export default {
 
 .about-church-item-title {
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin: 0.8rem 0;
   list-style-type: none;
 }
 .about-church-item-content {
-  font-size: 1rem;
+  font-size: 0.9rem;
   padding-bottom: 0.5rem;
   margin-left: 1.8rem;
   color: #6c5b7b;  
   list-style-type: circle;  
 }
 
-@media (max-width: 500px) {
+@media (max-height: 800px) {
+  .about-church-view {
+    margin: 11vh 0;
+  }
+
   .about-church-item-title {
     font-weight: 500;
-    font-size: 1rem;
+    font-size: 0.9rem;
     margin-bottom: 0.3rem;
     list-style-type: none;
   }
@@ -72,12 +76,12 @@ export default {
   }
   .about-church-item-title {
     font-weight: 500;
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-bottom: 1rem;
     list-style-type: none;
   }
   .about-church-item-content {
-    font-size: 1.2rem;  
+    font-size: 1rem;  
     padding-bottom: 0.8rem;
     margin-left: 1.8rem;
   }

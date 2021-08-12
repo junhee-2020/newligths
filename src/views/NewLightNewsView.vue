@@ -18,7 +18,7 @@ export default {
 
 <style scoped>
 .new-light-news-view {
-  margin: 11vh 0;
+  margin: 8vh 0;
 }
 iframe {
   width: 100%;
@@ -26,6 +26,9 @@ iframe {
 }
 
 @media (max-width: 500px) {
+    .new-light-news-view {
+      margin: 11vh 0;
+    }  
     .new-light-news-view-body {
         font-size: 0.8rem;
     }

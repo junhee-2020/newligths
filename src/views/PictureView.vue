@@ -10,7 +10,7 @@
 export default {
   data() {
     return {
-      boardSrc: 'http://www.newlights.net/bbs/zboard.php?id=gallery',
+      boardSrc: 'http://www.newlights.net/bbs/zboard.php?id=gallery_newlights',
     }
   }
 }
@@ -18,13 +18,16 @@ export default {
 
 <style scoped>
 .picture-view {
-  margin: 11vh 0;
+  margin: 9vh 0;
 }
 iframe {
   width: 100%;
-  min-height: 700px;
+  min-height: 900px;
 }
 @media (max-width: 500px) {
+    .picture-view {
+      margin: 11vh 0;
+    }  
     .picture-view-body {
         font-size: 0.8rem;
     }

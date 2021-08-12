@@ -25,7 +25,7 @@ export default {
     justify-content: center;
     align-items: flex-end;
     color: black;
-    margin: 0;
+    margin: 11vh 0 0 0;
     padding: 0;    
 }
 

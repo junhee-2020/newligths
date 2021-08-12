@@ -35,7 +35,7 @@ export default {
 
 <style>
 .worship-guide-view {
-  margin: 10vh 0;
+  margin: 9vh 0;
 }
 .worship-guide-view-ol {
   padding: 1rem;
@@ -58,6 +58,9 @@ export default {
 }
 
 @media (max-width: 500px) {
+  .worship-guide-view {
+    margin: 11vh 0;
+  }  
   .worship-guide-view-item-title {
     font-weight: 500;
     font-size: 1rem;

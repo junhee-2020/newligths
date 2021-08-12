@@ -18,14 +18,17 @@ export default {
 
 <style scoped>
 .free-board-view {
-  margin: 11vh 0;
-}
+  margin: 9vh 0;
+}  
 iframe {
   width: 100%;
   min-height: 500px;
 }
 
 @media (max-width: 500px) {
+    .free-board-view {
+      margin: 11vh 0;
+    }    
     .free-board-view-body {
         font-size: 0.8rem;
     }
